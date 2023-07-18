@@ -1,0 +1,31 @@
+<!-- html home page for searching the database -->
+<html> 
+    <head>
+        <title>Search Home</title>
+        <link rel = 'stylesheet' type = 'text/css' href = '../css/dbicw.css'>
+        <script type = "text/javascript" src = "../js/dbicw.js"></script>
+        <script src = "../js/navbar.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <navbar-component></navbar-component>
+
+            <div class="content">
+                <h1>Search the Database</h1>
+                <p> Search for an actor or movie in the database. <br>
+                    Press the buttons to go to the relevant pages.</p>
+                
+                <div>
+                    <form action="../pages/search_actor.html">
+                        <button class="button" type="submit"><span></span>Actor</button>
+                    </form>
+                    <form action="../pages/search_movie.html">
+                        <button class="button" type="submit"><span></span>Movie</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
+

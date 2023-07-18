@@ -1,0 +1,29 @@
+<!-- html page for searching for a movie in the database -->
+<html> 
+    <head>
+        <title>Search Movie</title>
+        <link rel = 'stylesheet' type = 'text/css' href = '../css/dbicw.css'>
+        <script type = "text/javascript" src = "../js/dbicw.js"></script>
+        <script src = "../js/navbar.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <navbar-component></navbar-component>
+
+            <div class="center">
+                <h1>Search Movie by Title</h1>
+                <form action = "../pages/search_movie.php" onSubmit = "return validate(this)">
+                    <div class="txt_field">
+                        <input type="text" name = "title"required autocomplete="off">
+                        <span></span>
+                        <label>Movie Title</label>
+                    </div>
+                    <input type="submit" value="Search">
+                    <div>
+                        <br><br>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

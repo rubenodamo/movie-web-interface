@@ -1,0 +1,58 @@
+<!-- html main home page for accessing database functions -->
+<html> 
+    <head>
+        <title>Home Page</title>
+        <link rel = 'stylesheet' type = 'text/css' href = '../css/dbicw.css'>
+        <script type = "text/javascript" src = "../js/dbicw.js"></script>
+        <script src = "../js/navbar.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <navbar-component></navbar-component>
+
+            <div class="row">
+                <div class="col">
+                    <h1>Clubhouse Cinemas</h1>
+                    <p>COMP1004 Databases and Interfaces Coursework by Ruben Odamo. This website is an implementation of 
+                        end-to-end system for database access. The website performs functions to alter the database and 
+                        display the results.
+                    </p>
+                    <div class="search_edit_btns">
+                        <form action="../pages/search_home.html">
+                            <button class="button" type="submit"><span></span>Search</button>
+                        </form>
+                        <form action="../pages/edit_home.html">
+                            <button class="button" type="submit"><span></span>Edit</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col">
+                    <a href="../pages/add_actor.html">
+                        <div class="card card1">
+                            <h2>Add Actor</h2>
+                            <p>Add an actor to the database</p>
+                        </div>
+                    </a>
+                    <a href="../pages/delete_actor.php">
+                        <div class="card card2">
+                            <h2>Delete Actor</h2>
+                            <p>Delete an actor from the database</p>
+                        </div>
+                    </a>
+                    <a href="../pages/add_movie.php">
+                        <div class="card card3">
+                            <h2>Add Movie</h2>
+                            <p>Add a movie to the database</p>
+                        </div>
+                    </a>
+                    <a href="../pages/delete_movie.php">
+                        <div class="card card4">
+                            <h2>Delete Movie</h2>
+                            <p>Delete a movie from the database</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

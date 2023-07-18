@@ -1,0 +1,30 @@
+<!-- html home page for adding to the database -->
+<html> 
+    <head>
+        <title>Add Home</title>
+        <link rel = 'stylesheet' type = 'text/css' href = '../css/dbicw.css'>
+        <script type = "text/javascript" src = "../js/dbicw.js"></script>
+        <script src = "../js/navbar.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <navbar-component></navbar-component>
+
+            <div class="content">
+                <h1>Add to Database</h1>
+                <p> Add an actor or movie to the database. <br>
+                    Press the buttons to go to the relevant pages.</p>
+                
+                <div>
+                    <form action="../pages/add_actor.html">
+                        <button class="button" type="submit"><span></span>Actor</button>
+                    </form>
+                    <form action="../pages/add_movie.php">
+                        <button class="button" type="submit"><span></span>Movie</button>
+                    </form> 
+                </div>
+            </div>
+
+        </div>
+    </body>
+</html>
