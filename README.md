@@ -37,4 +37,4 @@ Files: ```dbicw.js```, ```navbar.js``` |
 Files: ```add_actor.html```, ```add_home.html```, ```delete_home.html```, ```edit_home.html```, ```index.html```, ```search_actor.html```, ```search_home.html```, ```search_movie.html```, ```add_actor.php```, ```add_movie_result.php```, ```delete_actor_result.php```, ```delete_actor.php```, ```delete_movie_result.php```, ```delete_movie.php```, ```edit_actor_result.php```, ```edit_actor.php```, ```edit_movie_result.php```, ```edit_movie.php```, ```search_actor.php```, ```search_movie.php``` |
 
 
-[^fn] This is a skeleton front-end with the hosts/usernames/passwords replaced with placeholders.
+[^fn]: This is a skeleton front-end with the hosts/usernames/passwords replaced with placeholders.
