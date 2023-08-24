@@ -29,12 +29,9 @@ The table below details the specific content information about the folders and t
 | Folder | Function |
 | :-----: | :--- |
 | css | This contains the CSS file available to all pages within the website. Files: ```dbicw.css``` |
-| images | This includes every standard image that is used on the web page.
-Files: ```background.jpeg```, ```image-01.jpeg```, ```image-02.jpg```, ```image-03.jpeg```, ```image-04.jpeg```, ```logo.png``` |
-| js | This contains two standard script files two run on every web page, to implement for validation and a navigation bar that appears at the top of every page.
-Files: ```dbicw.js```, ```navbar.js``` |
-| pages | This includes every php and html page that are required for the user interface and sql querying functions.
-Files: ```add_actor.html```, ```add_home.html```, ```delete_home.html```, ```edit_home.html```, ```index.html```, ```search_actor.html```, ```search_home.html```, ```search_movie.html```, ```add_actor.php```, ```add_movie_result.php```, ```delete_actor_result.php```, ```delete_actor.php```, ```delete_movie_result.php```, ```delete_movie.php```, ```edit_actor_result.php```, ```edit_actor.php```, ```edit_movie_result.php```, ```edit_movie.php```, ```search_actor.php```, ```search_movie.php``` |
+| images | This includes every standard image that is used on the web page. Files: ```background.jpeg```, ```image-01.jpeg```, ```image-02.jpg```, ```image-03.jpeg```, ```image-04.jpeg```, ```logo.png``` |
+| js | This contains two standard script files two run on every web page, to implement for validation and a navigation bar that appears at the top of every page. Files: ```dbicw.js```, ```navbar.js``` |
+| pages | This includes every php and html page that are required for the user interface and sql querying functions. Files: ```add_actor.html```, ```add_home.html```, ```delete_home.html```, ```edit_home.html```, ```index.html```, ```search_actor.html```, ```search_home.html```, ```search_movie.html```, ```add_actor.php```, ```add_movie_result.php```, ```delete_actor_result.php```, ```delete_actor.php```, ```delete_movie_result.php```, ```delete_movie.php```, ```edit_actor_result.php```, ```edit_actor.php```, ```edit_movie_result.php```, ```edit_movie.php```, ```search_actor.php```, ```search_movie.php``` |
 
 
 [^fn]: This is a skeleton front-end with the hosts/usernames/passwords replaced with placeholders.
