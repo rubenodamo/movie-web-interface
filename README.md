@@ -11,18 +11,18 @@ The solution took the form of a web-based application (going by the name of “C
 When all four languages are used together, communication between the user and the database is made easier. Each language listed includes a wide range of features that were specifically useful for this project. 
 
 ### Entity-Relationship Diagram
-
-![ER Diagram](https://github.com/rubenodamo/movie-web-interface/assets/93412774/4ee3bc25-0ee0-4122-87cc-8408c8a528f8)
+<p align="center">
+  <img src="https://github.com/rubenodamo/movie-web-interface/assets/93412774/4ee3bc25-0ee0-4122-87cc-8408c8a528f8" />
+</p>
 
 The database used in the back-end development of the website was based on the structure depicted in figure above. This figure conveys an entity-relationship diagram, which gives a conceptual view of the database. This diagram aided certain design features and functionality understanding when being applied to the problem approach.
 
 ## Webpage Structure
 
 ### Folder Layout
-![Folder Structure](https://github.com/rubenodamo/movie-web-interface/assets/93412774/3b7708a3-79b7-40ac-8565-8ffe696b2d74)
-
-
-
+<p align="center">
+  <img src="https://github.com/rubenodamo/movie-web-interface/assets/93412774/3b7708a3-79b7-40ac-8565-8ffe696b2d74" />
+</p>
 
 ### File Information
 The table below details the specific content information about the folders and their relevant files.
