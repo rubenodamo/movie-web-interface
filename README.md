@@ -12,11 +12,15 @@ When all four languages are used together, communication between the user and th
 
 ### Entity-Relationship Diagram
 
+![ER Diagram](https://github.com/rubenodamo/movie-web-interface/assets/93412774/9048c6fb-57a2-4b03-b48a-da33cf1e68d2)
+
 The database used in the back-end development of the website was based on the structure depicted in figure above. This figure conveys an entity-relationship diagram, which gives a conceptual view of the database. This diagram aided certain design features and functionality understanding when being applied to the problem approach.
 
 ## Webpage Structure
 
 ### Folder Layout
+
+![folder structure](https://github.com/rubenodamo/movie-web-interface/assets/93412774/a5869932-3faa-4643-8800-0b89f38f2e68)
 
 
 ### File Information
