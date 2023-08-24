@@ -6,7 +6,7 @@ The solution took the form of a web-based application (going by the name of “C
 - HTML was used to create the webpage itself;
 - CSS was used to control and change the presentation of HTML documents, applying styling and layout rules to specific elements;
 - JavaScript was used for the client-side webpage interaction features;
-- PHP in conjunction with SQL was used for form handling, file processing, and database access.
+- PHP in conjunction with SQL was used for form handling, file processing, and database access.[^fn]
 
 When all four languages are used together, communication between the user and the database is made easier. Each language listed includes a wide range of features that were specifically useful for this project. 
 
@@ -26,13 +26,15 @@ The database used in the back-end development of the website was based on the st
 
 ### File Information
 The table below details the specific content information about the folders and their relevant files.
+| Folder | Function |
+| :-----: | :--- |
+| css | This contains the CSS file available to all pages within the website. Files: ```dbicw.css``` |
+| images | This includes every standard image that is used on the web page.
+Files: ```background.jpeg```, ```image-01.jpeg```, ```image-02.jpg```, ```image-03.jpeg```, ```image-04.jpeg```, ```logo.png``` |
+| js | This contains two standard script files two run on every web page, to implement for validation and a navigation bar that appears at the top of every page.
+Files: ```dbicw.js```, ```navbar.js``` |
+| pages | This includes every php and html page that are required for the user interface and sql querying functions.
+Files: ```add_actor.html```, ```add_home.html```, ```delete_home.html```, ```edit_home.html```, ```index.html```, ```search_actor.html```, ```search_home.html```, ```search_movie.html```, ```add_actor.php```, ```add_movie_result.php```, ```delete_actor_result.php```, ```delete_actor.php```, ```delete_movie_result.php```, ```delete_movie.php```, ```edit_actor_result.php```, ```edit_actor.php```, ```edit_movie_result.php```, ```edit_movie.php```, ```search_actor.php```, ```search_movie.php``` |
 
 
-
-
-
-
-
-
-
-This is a skeleton front-end with the hosts/usernames/passwords replaced with a placeholder, but project structure and demonstations can be seen below.
+[^fn] This is a skeleton front-end with the hosts/usernames/passwords replaced with placeholders.
