@@ -19,8 +19,8 @@ The database used in the back-end development of the website was based on the st
 ## Webpage Structure
 
 ### Folder Layout
+![Folder Structure](https://github.com/rubenodamo/movie-web-interface/assets/93412774/3b7708a3-79b7-40ac-8565-8ffe696b2d74)
 
-![folder structure copy](https://github.com/rubenodamo/movie-web-interface/assets/93412774/b32a7742-9cc1-4001-841c-dddc94eb897e)
 
 
 
